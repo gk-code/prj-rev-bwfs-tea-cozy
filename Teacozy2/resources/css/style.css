@@ -1,0 +1,155 @@
+/* Common CSS Rules */
+
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+  margin: 0px;
+}
+
+.container {
+  display: flex;
+}
+
+#mission,
+#locations,
+#contact {
+  width: 1200px;
+}
+
+#content,
+footer {
+  position: relative;
+  top: 69px;
+}
+
+h2,
+h4 {
+  margin: 10px 0px 20px 0px;
+}
+
+h3 {
+  margin: 15px 0px 20px 0px;
+}
+
+span {
+  margin: 40px 0px 40px 0px;
+  display: block;
+}
+
+/* Header CSS Rules */
+
+header {
+  height: 69px;
+  width: 100%;
+  border-bottom: 1px solid seashell;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  z-index: 10;
+  background-color: black;
+}
+
+header img {
+  height: 50px;
+  margin-left: 10px;
+}
+
+header ul {
+  list-style-type: none;
+  margin-right: 10px;
+}
+
+header li {
+  display: inline-block;
+  width: 130px;
+}
+
+header a {
+  color: seashell;
+}
+
+/* Content CSS Rules */
+
+#content {
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* Mission CSS Rules */
+
+#mission {
+  height: 700px;
+  background-image: url('../images/img-mission-background.jpg');
+  align-items: center;
+}
+
+#mission div {
+  background-color: black;
+  width: 100%;
+}
+
+/* Teas CSS Rules */
+
+#teas {
+  flex-direction: column;
+  width: 1000px;
+  padding: 60px 0px 60px 0px;
+}
+
+#teaRow1 {
+  justify-content: space-between;
+}
+
+#teaRow2 {
+  justify-content: center;
+}
+
+#teaRow2 .tea {
+  margin: 0px 25px;
+}
+
+.tea img {
+  height: 200px;
+  width: 300px;
+}
+
+/* Locations CSS Rules */
+
+#locations {
+  height: 500px;
+  background-image: url('../images/img-locations-background.jpg');
+  flex-direction: column;
+}
+
+#locations .container {
+  justify-content: center;
+}
+
+.location {
+  width: 300px;
+  margin: 0px 20px;
+  background-color: black;
+  opacity: 1;
+}
+
+#headingDiv {
+  width: 1200px;
+  margin: 60px 0px 0px 0px;
+}
+
+/* Contact CSS Rules */
+
+#contact {
+  height: 200px;
+}
+
+/* Footer CSS Rules */
+
+footer {
+  text-align: left;
+  margin-left: 20px;
+}
